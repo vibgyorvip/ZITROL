@@ -47,6 +47,5 @@ public class Hashing {
             System.out.println(frequencyArray[index]);
         }
 
-
     }
 }

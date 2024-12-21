@@ -3,7 +3,7 @@ import java.util.*;
 
 class ArrayEx1{
 
-	//Brute force O(n) Optimized only
+	// O(n) Optimized only
 	public static int findLargestElementArray(int[] arr){
 
 		//handle the case when the array is empty
@@ -21,7 +21,7 @@ class ArrayEx1{
 		return max;
 	}
 
-	//Sorting the Array (Used when Sorting is essential) O(nlogn) using QS
+	//Brute force : Sorting the Array (Used when Sorting is essential) O(nlogn) using QS
 	public static int findLargestElementArray(int[] arr){
 		int max=0;
 		Arrays.sort(arr);

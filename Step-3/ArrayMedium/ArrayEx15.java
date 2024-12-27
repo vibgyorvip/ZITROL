@@ -3,6 +3,7 @@ import java.util.*;
 
 class ArrayEx15{
 
+	//Brute force O(n^2)
 	public static ArrayList<Integer> find2Sum(int[] arr, int target){
 		int n=arr.length;
 		ArrayList<Integer> indexes = new ArrayList<>();
@@ -41,7 +42,7 @@ class ArrayEx15{
 	}
 
 
-	//Greedy approach 2 pointer
+	//Greedy approach 2 pointer O(n)
 	public static String find2Sum2Pointer(int[] arr, int target){
 		int n = arr.length;
 		Arrays.sort(arr);

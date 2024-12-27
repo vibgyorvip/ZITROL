@@ -1,6 +1,7 @@
 //2Sum Problem
 import java.util.*;
 
+
 class ArrayEx15{
 
 	//Brute force O(n^2)
